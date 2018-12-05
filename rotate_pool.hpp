@@ -56,9 +56,9 @@ class RotatePSROIAlignLayer : public Layer<Dtype> {
 };
 
 template <typename Dtype>
-class RotateMyROIAlignLayer : public Layer<Dtype> {
+class RotateROIAlignLayer : public Layer<Dtype> {
  public:
-  explicit RotateMyROIAlignLayer(const LayerParameter& param)
+  explicit RotateROIAlignLayer(const LayerParameter& param)
       : Layer<Dtype>(param) {}
   virtual void LayerSetUp(const vector<Blob<Dtype>*>& bottom,
       const vector<Blob<Dtype>*>& top);
