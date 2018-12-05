@@ -1,6 +1,6 @@
 # Rotate RoI Align Pooling and Rotate Position Sensitive RoI Align Pooling in Caffe
 
-This repository contains codes of two popular Rotate RoI Pooling operation in Caffe, modified from the regular implementation from [codes](https://github.com/zengarden/light_head_rcnn).
+This repository contains codes of two popular Rotate RoI Pooling operation in Caffe, modified from the regular implementation in [codes](https://github.com/zengarden/light_head_rcnn).
 
 ## ##
 ## Usage
@@ -27,8 +27,7 @@ This repository contains codes of two popular Rotate RoI Pooling operation in Ca
 	y = (pt1[1] + pt3[1]) / 2.0
 	```
 
-- Now you can add these operation in caffe.proto and rebuild the library, then call with params similar as the regular ones:
-
+- Now you can add these operation in caffe.proto and rebuild the library, then call with params similar as the regular ones
 
 ## ##
 Apache License, Version 2.0
